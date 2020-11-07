@@ -4,6 +4,8 @@ import java.io.IOException;
 public class App {
     public static void main(String[] args) {
 
+        System.out.println("Total number of possible ways is: ");
+        System.out.println(possibleWays(21));
     }
 
     private static  int possibleWays(int totalFeet) {
